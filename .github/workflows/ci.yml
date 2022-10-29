@@ -16,6 +16,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install
       - run: npm run build
-      - run: npm start ytview=1000
+      - run: npm start ytview=5
